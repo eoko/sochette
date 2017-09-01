@@ -1,0 +1,25 @@
+{
+  "name": "sochette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "debug": "^3.0.1",
+    "node-ipc": "latest",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "memwatch-next": "^0.3.0",
+    "chai": "^4.1.1"
+  }
+}
